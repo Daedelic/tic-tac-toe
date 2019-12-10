@@ -1,4 +1,5 @@
 //Global Varaibles
+color white=255;
 float headerX, headerY, headerWidth, headerHeight;
 float boardX, boardY, BoardWith, BoardHeight;
 float spaceX1, spaceY1, spaceWidth, spaceHeight;
@@ -73,34 +74,15 @@ void GUI_setup() {
   scoreXnameO = scoreAO;
   scoreYnameO = scoreYvarO = height * 1/16;
   scoreXvarO = scoreAO + scoreWidthXO*0.5;
-  //
-  //rect(headerX, headerY, headerWidth, headerHeight);
-  rect(boardX, boardY, BoardWith, BoardHeight);
-  //rect(spaceX1, spaceY1, spaceWidth, spaceHeight);
-  //rect(spaceX2, spaceY2, spaceWidth, spaceHeight);
-  //rect(spaceX3, spaceY3, spaceWidth, spaceHeight);
-  //rect(spaceX4, spaceY4, spaceWidth, spaceHeight);
-  //rect(spaceX5, spaceY5, spaceWidth, spaceHeight);
-  //rect(spaceX6, spaceY6, spaceWidth, spaceHeight);
-  //rect(spaceX7, spaceY7, spaceWidth, spaceHeight);
-  //rect(spaceX8, spaceY8, spaceWidth, spaceHeight);
-  //rect(spaceX9, spaceY9, spaceWidth, spaceHeight);
-  line(lineAX1, lineAY1, lineBX1, lineBY1);
-  line(lineAX2, lineAY2, lineBX2, lineBY2);
-  line(lineAX3, lineAY3, lineBX3, lineBY3);
-  line(lineAX4, lineAY4, lineBX4, lineBY4);
-  //rect(resetX, scoreYnameX, resetWidth, scoreHeightXO*0.5);
-  //rect(scoreA, scoreB, scoreWidth, scoreHeight);
-  //rect(scoreAX, scoreBX, scoreWidthXO, scoreHeightXO);
-  //rect(scoreAO, scoreBO, scoreWidthXO, scoreHeightXO);
-  //rect(scoreA, scoreB, scoreWidth, darkHeight); //Scoreboard Title
-  rect(scoreA, impossibleY, scoreWidth, impossibleHeight); //1-Person or 2-Person Title
-  //rect(scoreXnameX, scoreYnameX, scoreWidthXO*0.5, scoreHeightXO*0.5);
-  //rect(scoreXvarX, scoreYvarX, scoreWidthXO*0.5, scoreHeightXO*0.5);
-  //rect(scoreXnameO, scoreYnameO, scoreWidthXO*0.5, scoreHeightXO*0.5);
-  //rect(scoreXvarO, scoreYvarO, scoreWidthXO*0.5, scoreHeightXO*0.5);
-  rect(darkX, darkY, darkWidth, darkHeight);
-  rect(easyX, easyY, easyWidth, easyHeight);
-  rect(mediumX, mediumY, mediumWidth, mediumHeight);
-  rect(impossibleX, impossibleY, impossibleWidth, impossibleHeight);
+  
+  rect(spaceX1, spaceY1, spaceWidth, spaceHeight);
+  rect(spaceX2, spaceY2, spaceWidth, spaceHeight);
+  rect(spaceX3, spaceY3, spaceWidth, spaceHeight);
+  rect(spaceX4, spaceY4, spaceWidth, spaceHeight);
+  rect(spaceX5, spaceY5, spaceWidth, spaceHeight);
+  rect(spaceX6, spaceY6, spaceWidth, spaceHeight);
+  rect(spaceX7, spaceY7, spaceWidth, spaceHeight);
+  rect(spaceX8, spaceY8, spaceWidth, spaceHeight);
+  rect(spaceX9, spaceY9, spaceWidth, spaceHeight);
+  
 }
