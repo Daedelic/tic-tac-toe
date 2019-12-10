@@ -8,7 +8,7 @@ void quitButtonRect() {
   rect(width*19/20, height*0, width*1/20, height*1/20);
 }
 void quitButtonSetup() {
-  quitButtonFont = createFont ("broadway", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
+  quitButtonFont = createFont ("broadway", 55);
   quitButtonRect(); //Quit Button
 }
 
@@ -22,13 +22,12 @@ void quitButtonDraw() {
     quitButtonRect();
   }
 
-  //Text in Quit Button
-  fill(red); //Ink, hexidecimal copied from Color Selector
-  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
-  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
-  textFont(quitButtonFont, 20); //Change the number until it fits, largest font size
+  
+  fill(red);
+  textAlign (CENTER, CENTER); 
+  textFont(quitButtonFont, 20); 
   text(title, width*19/20, height*0, width*1/20, height*1/20);
-  fill(255); //Reset to white for rest of the program
+  fill(255); 
 }
 
 void quitButtonMouseClicked() {
